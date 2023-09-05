@@ -7,4 +7,20 @@ import { Component } from '@angular/core';
 })
 export class WorkExperienceComponent {
 
+  workExperience : Array<any>= [];
+
+  constructor(){}
+
+  ngOnInit(): void{
+    let work1 = {
+      fecha: "", 
+      ubicacion: "",
+      empresa: "",
+      logros: [
+        {descripcion:""},
+        {descripcion:""}
+      ]
+    }
+  }
+
 }
