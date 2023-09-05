@@ -16,7 +16,18 @@
     color: rgb(70, 0, 135);
     font-size: 30px;
     width: 15rem;
-    margin: 2px;
+    margin: 20px;
     font-weight: 900;
-
 }
+.barra {
+    width: 100%;
+    height: 5px;
+    background-color: rgb(255, 196, 19);
+    border: 5px;
+    border-color: rgb(255, 196, 19);
+    border-style: hidden;
+  
+    margin: 0;
+    padding: 0;
+  }
+
