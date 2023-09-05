@@ -6,19 +6,17 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
 }
 .Contenedor_Secundario{
-    border: 0px;
-    background-color: rgba(195, 198, 255, 0.5);
-    border-radius: 0px;
-    border-color: rgb(255, 255, 255);
-    border-style: none;
-
+   
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: center;
-   
+    background-color: rgba(195, 198, 255, 0.5);
+    border-radius: 0px;
+    border-color: rgb(255, 255, 255);
+    border-style: none;
+
   }
