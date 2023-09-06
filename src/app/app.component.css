@@ -3,11 +3,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Esto hará que el contenedor ocupe toda la altura de la pantalla */
+    height: 100%; /* Esto hará que el contenedor ocupe toda la altura de la pantalla */
     background-color: #f5f5f5; /* Color claro de fondo */
 }
 
 .Contenedor_Secundario {
+    margin-top: 5%;
     width: 80%; /* Ocupa el 80% del ancho de su contenedor padre */
     max-width: 1200px; /* Ancho máximo para grandes pantallas */
     background-color: #ffffff; /* Color blanco para el fondo */

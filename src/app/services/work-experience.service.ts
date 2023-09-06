@@ -20,7 +20,7 @@ export class WorkExperienceService {
     })
   }
 
-  getHeader():Observable<any>{
+  getWork():Observable<any>{
     return this.http.get<any>(this.apiURL,this.httpoptions)
     .pipe(
       retry(1),

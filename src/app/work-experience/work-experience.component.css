@@ -1,0 +1,19 @@
+
+.Caja {
+    width: 100%;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    background-color: #fafafa; 
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+/* Estilos específicos para las clases */
+
+
+
+
+.sombra {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
