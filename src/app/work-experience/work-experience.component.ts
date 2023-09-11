@@ -25,6 +25,7 @@ export class WorkExperienceComponent implements OnInit {
       this.Experiencia = data
       console.log(data)
  })
+
 }
 
 }
