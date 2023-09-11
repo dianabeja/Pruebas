@@ -10,12 +10,11 @@
 
 /* Estilos específicos para las clases */
 
-
-
 .caja1 {
     color: #888888;
     padding: 0px 10px 0px 20px;
     font-size: 17px;
+    text-align: justify;
 }
 .nombre {
     font-size: 27px;
