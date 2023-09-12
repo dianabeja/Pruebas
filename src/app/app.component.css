@@ -9,7 +9,7 @@
 
 .Contenedor_Secundario {
     margin-top: 5%;
-    width: 80%; /* Ocupa el 80% del ancho de su contenedor padre */
+    width: 60%; /* Ocupa el 80% del ancho de su contenedor padre */
     max-width: 1200px; /* Ancho máximo para grandes pantallas */
     background-color: #ffffff; /* Color blanco para el fondo */
     box-shadow: 0 5px 15px rgba(0,0,0,0.1); /* Sombra para dar profundidad */
