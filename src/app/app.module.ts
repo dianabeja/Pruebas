@@ -5,34 +5,27 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { HttpClientModule } from '@angular/common/http';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
-import { HttpClientModule } from '@angular/common/http';
-
-import { HttpClientModule } from '@angular/common/http';
 import { SkillsComponent } from './skills/skills.component';
+import { InterestComponent } from './interest/interest.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     WorkExperienceComponent,
-    SkillsComponent
+    SkillsComponent,
+    InterestComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
 
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { 
-  constructor() {
-    // Agrega los iconos que desees utilizar aquí
-    library.add(faCoffee);
-  }
 }

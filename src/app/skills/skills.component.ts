@@ -14,7 +14,6 @@ export class SkillsComponent implements OnInit{
     this.skillService.getSkills()
     .subscribe( (data: any) => {
       this.Skill = data
-
  })
 }
 getBarWidth(nivel: string): string {
