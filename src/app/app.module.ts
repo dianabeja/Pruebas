@@ -11,11 +11,15 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 import { HttpClientModule } from '@angular/common/http';
 
+import { HttpClientModule } from '@angular/common/http';
+import { SkillsComponent } from './skills/skills.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    WorkExperienceComponent
+    WorkExperienceComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
