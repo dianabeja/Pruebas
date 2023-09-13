@@ -4,30 +4,31 @@
     background-color: #fafafa; 
     font-family: 'Arial', sans-serif;
     color: #535353;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 10px;
+    
 }
 
 /* Estilos específicos para las clases */
 
 .titulo{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     color: #5A5A5A;
 }
 
-.puesto{
-    font-size: 25px;
+.skill{
+    font-size: 12px;
     color: #5A5A5A;
 }
 
-.empresa{
+.area{
     font-size: 12px;
     font-weight: bold;
     color: #656e60; 
 }
 
-.lugarfecha{
+.nivel{
     text-align: center;
     font-size: 12px;
     color: #656e60;  
@@ -36,3 +37,35 @@
 .sombra {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+.barra {
+    margin-top: 20px;
+    height: 5px;
+    background-color: #E1E1E1; 
+    width: 100%;
+}
+
+.skill-level {
+    display: flex;
+    height: 15px;
+    width: 100%; 
+    border: 1px solid #666;
+    background-color: #f4f4f4;
+    margin-top: 10px; 
+}
+
+.skill-level span {
+    display: block;
+    height: 100%;
+    background-color: #666; 
+}
+table {
+    width: 100%;
+}
+
+td {
+    width: 50%; 
+    vertical-align: top; 
+    border: none;
+    padding: 10px; 
+}
+

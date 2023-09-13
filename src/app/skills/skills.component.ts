@@ -14,8 +14,19 @@ export class SkillsComponent implements OnInit{
     this.skillService.getSkills()
     .subscribe( (data: any) => {
       this.Skill = data
-      console.log("ujujuj"+data)
+
  })
 }
-
+getBarWidth(nivel: string): string {
+  switch (nivel) {
+      case 'Básico':
+          return '33%';
+      case 'Intermedio':
+          return '66%';
+      case 'Avanzado':
+          return '100%';
+      default:
+          return '0%';
+  }
+}
 }
