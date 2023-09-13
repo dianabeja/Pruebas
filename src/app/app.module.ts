@@ -5,8 +5,10 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { HttpClientModule } from '@angular/common/http';
+
 import { SkillsComponent } from './skills/skills.component';
 import { InterestComponent } from './interest/interest.component';
+
 
 @NgModule({
   declarations: [
@@ -20,6 +22,7 @@ import { InterestComponent } from './interest/interest.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
