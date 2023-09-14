@@ -1,0 +1,75 @@
+.Caja {
+    width: 100%;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    background-color: #fafafa; 
+    font-family: 'Arial', sans-serif;
+    color: #535353;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+    
+}
+
+/* Estilos específicos para las clases */
+
+.titulo{
+    font-size: 20px;
+    font-weight: bold;
+    color: #5A5A5A;
+}
+
+.nombre{
+    font-size: 12px;
+    color: #5A5A5A;
+}
+
+.descripcion{
+    font-size: 12px;
+    font-weight: bold;
+    color: #656e60; 
+}
+
+.imagen{
+    text-align: center;
+    font-size: 12px;
+    color: #656e60;  
+}
+
+.sombra {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.barra {
+    margin-top: 20px;
+    height: 5px;
+    background-color: #E1E1E1; 
+    width: 100%;
+}
+
+.skill-level {
+    display: flex;
+    height: 15px;
+    width: 100%; 
+    border: 1px solid #666;
+    background-color: #f4f4f4;
+    margin-top: 10px; 
+}
+
+.skill-level span {
+    display: block;
+    height: 100%;
+    background-color: #666; 
+}
+table {
+    width: 100%;
+}
+
+td {
+    width: 50%; 
+    vertical-align: top; 
+    border: none;
+    padding: 10px; 
+}
+
