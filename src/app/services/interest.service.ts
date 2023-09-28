@@ -10,7 +10,7 @@ import { retry, catchError } from 'rxjs/operators';
 export class InterestService {
 
   constructor(private http: HttpClient) { }
-  apiURL="http://localhost:8080/interest";
+  apiURL="https://apicv-service-dianabeja.cloud.okteto.net/interest";
 
   //Http options
   httpoptions={

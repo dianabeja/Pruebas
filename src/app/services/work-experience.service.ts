@@ -11,7 +11,7 @@ export class WorkExperienceService {
   
 
   constructor(private http: HttpClient) { }
-  apiURL="http://localhost:8080/workexperience";
+  apiURL="https://apicv-service-dianabeja.cloud.okteto.net/workexperience";
 
   //Http options
   httpoptions={

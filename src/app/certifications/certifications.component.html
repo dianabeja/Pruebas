@@ -1,0 +1,17 @@
+<div>
+    <section>
+        <h1 class="titulo">Certificados</h1>
+        <div class="barra"></div>
+    </section>
+    <table>
+        <ul class="Caja sombra" *ngFor="let certificados of Certifications">
+         <div style="margin-right:50px ;">
+            <p class="nombre">{{certificados.nombre}}</p>
+            <p class="descripcion">{{certificados.descripcion}}</p>
+         </div>
+         <a href={{certificados.imagen}} target="_blank">            <img class="imagen sombra" src={{certificados.imagen}} width="200" height="150" >
+         </a>
+        </ul>
+        <tr></tr>
+    </table>
+</div>

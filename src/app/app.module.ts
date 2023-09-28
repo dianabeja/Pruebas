@@ -7,6 +7,7 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
 import { HttpClientModule } from '@angular/common/http';
 import { SkillsComponent } from './skills/skills.component';
 import { InterestComponent } from './interest/interest.component';
+import { CertificationsComponent } from './certifications/certifications.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { InterestComponent } from './interest/interest.component';
     HeaderComponent,
     WorkExperienceComponent,
     SkillsComponent,
-    InterestComponent
+    InterestComponent,
+    CertificationsComponent
   ],
   imports: [
     BrowserModule,
