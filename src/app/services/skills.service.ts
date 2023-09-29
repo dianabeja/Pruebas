@@ -7,11 +7,10 @@ import { BehaviorSubject } from 'rxjs/';
 @Injectable({
   providedIn: 'root'
 })
-export class HeaderService {
+export class SkillsService {
 
   constructor(private http: HttpClient) { }
-
-  apiURL="https://apicv-service-dianabeja.cloud.okteto.net/header";
+  apiURL="https://apicv-service-dianabeja.cloud.okteto.net/skills";
 
   //Http options
   httpoptions={
@@ -20,7 +19,7 @@ export class HeaderService {
     })
   }
 
-  getHeader():Observable<any>{
+  getSkills():Observable<any>{
     return this.http.get<any>(this.apiURL,this.httpoptions)
     .pipe(
       retry(1),

@@ -1,0 +1,48 @@
+.Caja {
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    background-color: #fafafa; 
+    font-family: 'Arial', sans-serif;
+    color: #535353;
+    margin-bottom: 4px;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Estilos específicos para las clases */
+
+.titulo{
+    font-size: 20px;
+    font-weight: bold;
+    color: #5A5A5A;
+}
+
+
+.puesto{
+    font-size: 12px;
+    font-weight: bold;
+    color: #656e60; 
+    margin: 10px;
+}
+
+
+.sombra {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.barra {
+    margin-top: 20px;
+    height: 5px;
+    background-color: #E1E1E1; 
+    width: 100%;
+}
+
+.Caja ul {
+    display: flex;
+    list-style-type: none;  
+    padding: 0;            
+    margin: 0;         
+    justify-content: center;   
+}
+
+.Caja ul li.puesto {
+    margin: 5px 5px;   
+}

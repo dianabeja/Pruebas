@@ -2,16 +2,14 @@ import { Injectable } from '@angular/core';
 import {HttpClient, HttpHeaders} from '@angular/common/http'
 import { Observable,throwError } from 'rxjs';
 import { retry, catchError } from 'rxjs/operators';
-import { BehaviorSubject } from 'rxjs/';
 
 @Injectable({
   providedIn: 'root'
 })
-export class HeaderService {
+export class CertificationsService {
 
   constructor(private http: HttpClient) { }
-
-  apiURL="https://apicv-service-dianabeja.cloud.okteto.net/header";
+  apiURL="https://apicv-service-dianabeja.cloud.okteto.net/certificados";
 
   //Http options
   httpoptions={
@@ -20,7 +18,7 @@ export class HeaderService {
     })
   }
 
-  getHeader():Observable<any>{
+  getCertification():Observable<any>{
     return this.http.get<any>(this.apiURL,this.httpoptions)
     .pipe(
       retry(1),

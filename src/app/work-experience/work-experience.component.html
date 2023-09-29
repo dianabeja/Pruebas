@@ -1,1 +1,16 @@
-<p>work-experience works!</p>
+<div>
+        <section>
+            <h1 class="titulo">Experiencia laboral</h1>
+        </section>
+
+        <table>
+            <ul class="Caja sombra" *ngFor="let experiencia of Experiencia">
+                <p class="puesto">{{experiencia.puesto}}</p>
+                <p class="empresa">{{experiencia.empresa}}</p>
+                <p class="lugarfecha">{{experiencia.fecha_inicio+"-"+experiencia.fecha_fin+" "+experiencia.ciudad+", "+experiencia.pais}}</p>
+                <ul *ngFor="let logro of experiencia.logros ">
+                    <p>{{logro}}</p>
+                </ul>
+            </ul>
+        </table>
+</div>
