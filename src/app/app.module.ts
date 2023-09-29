@@ -9,7 +9,6 @@ import { SkillsComponent } from './skills/skills.component';
 import { InterestComponent } from './interest/interest.component';
 import { CertificationsComponent } from './certifications/certifications.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,

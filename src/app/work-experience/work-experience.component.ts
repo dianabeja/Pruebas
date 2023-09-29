@@ -8,6 +8,7 @@ import { WorkExperienceService } from '../services/work-experience.service';
 })
 export class WorkExperienceComponent implements OnInit {
 
+
   constructor( private workService: WorkExperienceService) { }
 
   Experiencia: any = [];
@@ -25,6 +26,7 @@ export class WorkExperienceComponent implements OnInit {
       this.Experiencia = data
       console.log(data)
  })
+
 }
 
 }
